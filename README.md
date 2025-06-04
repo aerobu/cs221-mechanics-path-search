@@ -5,7 +5,8 @@ This project provides two Python scripts (`mechanics.py` and `mechanicsAndDP.py`
 2.  **Free Fall Motion**: A particle moving under a uniform gravitational field.
 
 The scripts uses various search algorithms to find trajectories that minimize the classical action (integral of the Lagrangian).
-If you want to understand our code, it is recommended that you start with `mechanicsAndDP.py` since it is only ~200 lines.
+If you want to understand our code, it is recommended that you start with `mechanicsAndDP.py` since it is only ~200 lines and covers a lot
+of the essentials of our approach.
 
 ## Features
 
