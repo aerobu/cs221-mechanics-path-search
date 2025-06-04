@@ -90,14 +90,6 @@ class HarmonicOscillator(MechanicalSystem):
     
 
 ###### Inference ######
-
-# Base class for solving mechanical problems
-class MechanicalSystemSolver:
-    def __init__(self, problem):
-      pass
-    def solve(self):
-      pass
-
 def dynamicProgramming(problem):
     cache = {}  # state => futureCost(state), action, newState, cost
     def futureCost(state):
